@@ -1,0 +1,54 @@
+.bill-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 400px;
+  margin: 20px auto;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+  background-color: #fff;
+}
+
+.bill-card h2 {
+  margin-bottom: 15px;
+  color: #FF4C24;
+  font-size: 22px;
+}
+
+.bill-card h3 {
+  margin-top: 15px;
+  margin-bottom: 8px;
+  color: #FF4C24;
+  font-size: 18px;
+}
+
+.bill-card p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.bill-card ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.bill-card ul li {
+  font-size: 14px;
+  margin-bottom: 4px;
+  color: #555;
+}
+
+.bill-btn {
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #FF4C24;
+  color: white;
+  border: none;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.bill-btn:hover {
+  background: #e03e15;
+}
