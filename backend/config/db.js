@@ -1,7 +1,10 @@
 import mongoose from "mongoose";
+import dotenv from "dotenv";
 
-export const  connectDB = async () =>{
+dotenv.config(); // load environment variables
 
-    await mongoose.connect('mongodb+srv://aparnapadhyap672_db_user:oQwSeQZfGjrxFQje@cluster0.9iu49zr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0').then(()=>console.log("DB Connected"));
-   
+export const connectDB = async () => {
+    await mongoose.connect(process.env.MONGO_URI)
+        .then(() => console.log("DB Connected"))
+        .catch((err) => console.error("DB connection error:", err));
 }
