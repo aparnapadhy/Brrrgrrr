@@ -63,4 +63,16 @@
         max-width: 100%;
         font-size: 14px;
     }
+
+    @media (max-width:638px) {
+    .explore-menu-text {
+        text-align: center;
+     
+    }
+
+    .explore-menu h1 {
+        text-align: center;
+        font-size: 25px;
+    }
+ }
 }
