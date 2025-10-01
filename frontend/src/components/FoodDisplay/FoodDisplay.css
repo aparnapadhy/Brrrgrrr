@@ -18,5 +18,6 @@
  @media (max-width:638px) {
     .food-display h2 {
         place-self: center;
+        font-size: 30.5px;
     }
  }
