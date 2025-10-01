@@ -17,6 +17,6 @@
 }
  @media (max-width:638px) {
     .food-display h2 {
-        text-align: center;
+        place-self: center;
     }
  }
