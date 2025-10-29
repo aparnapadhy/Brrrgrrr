@@ -14,4 +14,7 @@ export const assets ={
     parcel_icon
 }
 
-export const url = 'http://localhost:4000'
+export const url = 
+  process.env.NODE_ENV === "production"
+    ? "https://brrrgrrr-backend-ggfd.onrender.com" // deployed URL
+    : "http://localhost:4000"; // local URL

@@ -41,6 +41,7 @@
     background-color: white;
     font-size: max(1vw, 13px);
     border-radius: 50px;
+    cursor: pointer;
   
 }
 
@@ -69,7 +70,7 @@
         display: none;
     }
     .header-contents button {
-        padding: 2vw 4vw;
-        font-size: 3vw;
+        padding: 2vw 3vw;
+        font-size: 2vw;
     }
 }

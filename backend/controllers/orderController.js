@@ -4,10 +4,16 @@ import Stripe from 'stripe'
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY)
 
+const frontend_url =
+  process.env.NODE_ENV === "production"
+    ? "https://brrrgrrr-frontend-zgj6.onrender.com" // deployed frontend URL
+    : "http://localhost:5173"; // local frontend URL
+
+
 //placing order for frontend
 const placeOrder = async(req,res)=> {
 
-  const frontend_url = "http://localhost:5173"
+  
 
    try {
     const newOrder = new orderModel({

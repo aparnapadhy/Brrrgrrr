@@ -10,7 +10,11 @@ const StoreContextProvider = (props) => {
 
   const [token, setToken] = useState("")
   
-  const url = "http://localhost:4000"
+  const url = 
+  process.env.NODE_ENV === "production"
+    ? "https://brrrgrrr-backend-ggfd.onrender.com" // deployed backend URL
+    : "http://localhost:4000"; // local backend URL
+
 
   const [food_list, setFoodList] = useState([])
 

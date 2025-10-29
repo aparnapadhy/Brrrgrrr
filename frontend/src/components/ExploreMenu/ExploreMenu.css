@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin-left: 20px;
+
 }
 
 .explore-menu h1 {
@@ -32,8 +32,7 @@
 }
 
 .explore-menu-list-item img {
-    width: 5.5vw;
-    height: 5.5vw;
+    width: 7.5vw;
     min-width: 80px;
     cursor: pointer;
     border-radius: 50%;
@@ -64,4 +63,17 @@
         max-width: 100%;
         font-size: 14px;
     }
+
+    @media (max-width:638px) {
+    .explore-menu-text {
+        text-align: center;
+     
+    }
+
+    .explore-menu h1 {
+        text-align: center;
+        font-size: 25px;
+    }
+ }
+ 
 }

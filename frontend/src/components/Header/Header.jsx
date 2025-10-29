@@ -12,7 +12,7 @@ const Header = () => {
           loaded with your favourite toppings, each burger is prepared with
           quality ingredients and a whole lot of love.
         </p>
-        <button>View Menu</button>
+        <a href="#explore-menu"> <button>View Menu</button></a>
       </div>
     </div>
   );

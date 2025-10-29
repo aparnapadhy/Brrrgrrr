@@ -11,8 +11,11 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
 
- const url = "http://localhost:4000";
-
+ const url = 
+  process.env.NODE_ENV === "production"
+    ? "https://brrrgrrr-backend-ggfd.onrender.com" // deployed URL
+    : "http://localhost:4000"; // local URL
+    
   return (
     <div>
       <ToastContainer/>
