@@ -20,9 +20,12 @@
 
 @media (max-width:1010px) {
     .navbar .logo {
+        width: 30px;
         margin-left: -10px;
     }
     .navbar .profile {
+         width: 30px;
+         height: 30px;
         margin-right: -10px;
     }
 }
