@@ -1,5 +1,5 @@
 .add {
-    width: 70%;
+    width: 60%;
     margin-left: max(5vw,25px);
     margin-top: 50px;
     color: #6d6d6d;
@@ -38,4 +38,17 @@
     background-color: black;
     color: white;
     cursor: pointer;
+}
+
+@media (max-width:1010px) {
+ 
+.add-product-name, .add-product-description {
+    width: 180px
+}
+
+.add-category-price {
+    display: flex;
+    flex-direction: column;
+}
+
 }
